@@ -9,6 +9,5 @@ public class Prompter {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
         action.execute(input);
-
     }
 }

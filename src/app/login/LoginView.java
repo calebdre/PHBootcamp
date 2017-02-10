@@ -21,7 +21,6 @@ public class LoginView {
         LoginCredentials credentials = builder.build();
         LoginPresenter presenter = new LoginPresenter();
 
-
         boolean pinIsValid = presenter.validatePin(credentials.getCardNumber(), credentials.getPin());
         if (pinIsValid) {
             // TODO: remove comment when AccountView is implemented
